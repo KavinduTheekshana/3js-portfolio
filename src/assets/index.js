@@ -25,20 +25,23 @@ import close from "./close.svg";
 import laravel from "./tech/laravel.png";
 import html from "./tech/html.png";
 import css from "./tech/css.png";
-import sass from "./tech/css.png";
+import sass from "./tech/sass.png";
 import javascript from "./tech/javascript.png";
 import reactjs from "./tech/reactjs.png";
 import ajax from "./tech/reactjs.png";
-import android from "./tech/reactjs.png";
+import android from "./tech/android.png";
 import figma from "./tech/figma.png";
 import sql from "./tech/figma.png";
 import threejs from "./tech/threejs.svg";
-import java from "./tech/threejs.svg";
-import vue from "./tech/threejs.svg";
+import java from "./tech/java.webp";
+import vue from "./tech/vue.png";
 import tailwind from "./tech/tailwind.png";
 import angular from "./tech/nodejs.png";
 import nodejs from "./tech/nodejs.png";
 import git from "./tech/nodejs.png";
+import photoshop from "./tech/ps.png";
+import xd from "./tech/xd.png";
+import ai from "./tech/ai.png";
 
 
 
@@ -55,7 +58,40 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
+import link from "./link.png";
+import kiththa from "./kiththa.jpeg";
+import codec from "./codec.jpeg";
+import dsma from "./dsma.jpeg";
+import forest from "./forest.jpeg";
+import magic from "./magic.jpeg";
+import mmgs from "./mmgs.jpeg";
+import ustart from "./ustart.png";
+import edumate from "./edumate.png";
+import yum from "./yum.jpg";
+import ecareer from "./ecareer.jpg";
+import dailycollection from "./dailycollection.jpg";
+import rubbishcollection from "./rubbishcollection.jpg";
+import ceylonbeats from "./ceylonbeats.jpeg";
+import library from "./library.jpg";
+import design from "./designs.jpg";
+
 export {
+  link,
+  kiththa,
+  codec,
+  dsma,
+  forest,
+  magic,
+  mmgs,
+  ustart,
+  edumate,
+  yum,
+  ecareer,
+  dailycollection,
+  rubbishcollection,
+  ceylonbeats,
+  library,
+  design,
   logo,
   backend,
   creator,
@@ -94,6 +130,9 @@ export {
   angular,
   nodejs,
   git,
+  photoshop,
+  xd,
+  ai,
   meta,
   shopify,
   starbucks,

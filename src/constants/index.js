@@ -40,6 +40,26 @@ import {
   carrent,
   jobit,
   tripguide,
+  photoshop,
+  ai,
+  xd,
+  kiththa,
+  github,
+  link,
+  mmgs,
+  codec,
+  dsma,
+  forest,
+  magic,
+  ustart,
+  edumate,
+  yum,
+  ecareer,
+  dailycollection,
+  rubbishcollection,
+  ceylonbeats,
+  library,
+  design,
 } from "../assets";
 
 export const navLinks = [
@@ -86,10 +106,6 @@ const technologies = [
     icon: html,
   },
   {
-    name: "CSS 3",
-    icon: css,
-  },
-  {
     name: "Sass",
     icon: sass,
   },
@@ -102,24 +118,12 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: "Ajax",
-    icon: ajax,
-  },
-  {
     name: "Android",
     icon: android,
   },
   {
     name: "Figma",
     icon: figma,
-  },
-  {
-    name: "SQL",
-    icon: sql,
-  },
-  {
-    name: "Three JS",
-    icon: threejs,
   },
   {
     name: "Java",
@@ -134,64 +138,25 @@ const technologies = [
     icon: tailwind,
   },
   {
-    name: "Angular",
-    icon: angular,
+    name: "Photoshop",
+    icon: photoshop,
   },
   {
-    name: "Node JS",
-    icon: nodejs,
+    name: "Xd",
+    icon: xd,
   },
   {
-    name: "Laravel",
-    icon: laravel,
+    name: "AI",
+    icon: ai,
   },
-  {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
-  {
-    name: "Sass",
-    icon: sass,
-  },
-  {
-    name: "Laravel",
-    icon: laravel,
-  },
-  {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
-  {
-    name: "Sass",
-    icon: sass,
-  },
-  {
-    name: "Laravel",
-    icon: laravel,
-  },
-  {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
-  {
-    name: "Sass",
-    icon: sass,
-  },
-
-
-
+  // {
+  //   name: "Angular",
+  //   icon: angular,
+  // },
+  // {
+  //   name: "Node JS",
+  //   icon: nodejs,
+  // },
 
   // {
   //   name: "TypeScript",
@@ -326,7 +291,96 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "MMGS",
+    description:
+      "I have developed a dynamic architecture website using a combination of Laravel, HTML, CSS, and JavaScript. The backend features multiple user types, each with their own set of privileges. Users can easily add projects and awards to the site, contributing to its rich and diverse content.",
+    tags: [
+      {
+        name: "Laravel",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: mmgs,
+    icon: link,
+    source_code_link: "https://kiththagrand.lk",
+  },
+  {
+    name: "Kiththa Grand",
+    description:
+      "Kiththa Grand is an e-commerce website specializing in the sale of spices. It was designed primarily using WordPress, with Woocommerce and Elementor as its key components. Additionally, the website employs the HelaPay Payment Gateway for seamless and secure payment processing.",
+    tags: [
+      {
+        name: "WordPress",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Woocommerce",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Elementor",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: kiththa,
+    icon: link,
+    source_code_link: "https://kiththagrand.lk",
+  },
+  {
+    name: "uStart Web Application",
+    description:
+      "uStart is a sales representative tracking system that leverages the use of mobile phones. The web application is designed specifically for system administrators, who can ensure that the reps follow their daily routes and manage inventory. The Google Maps API enables this functionality.",
+    tags: [
+      {
+        name: "Laravel",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Google Map API",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Ajax",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: ustart,
+    icon: github,
+    source_code_link:
+      "https://github.com/KavinduTheekshana/uStart-Web-Application",
+  },
+  {
+    name: "Code Consultants",
+    description:
+      "Code Consultants is dynamic website was created using Laravel, HTML, CSS, and JS. It allows users to seamlessly add new projects, articles, and events to the site.",
+    tags: [
+      {
+        name: "Laravel",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "HTML & CSS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Javascript",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: codec,
+    icon: link,
+    source_code_link: "https://codec.lk",
+  },
+  {
+    name: "Edu Mate UI/UX",
     description:
       "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
     tags: [
@@ -343,50 +397,232 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: edumate,
+    icon: github,
+    source_code_link: "https://github.com/KavinduTheekshana/Edu-Mate",
   },
   {
-    name: "Job IT",
+    name: "DSMA Associates",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "mongodb",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "tailwind",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: dsma,
+    icon: link,
+    source_code_link: "https://codec.lk",
   },
   {
-    name: "Trip Guide",
+    name: "Yum Recipes Web Application",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
     tags: [
       {
-        name: "nextjs",
+        name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "mongodb",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "tailwind",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: yum,
+    icon: github,
+    source_code_link:
+      "https://github.com/KavinduTheekshana/YumRecipes-WebApplication-Laravel",
+  },
+  {
+    name: "Forest Shade Eco Resort",
+    description:
+      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: forest,
+    icon: link,
+    source_code_link: "https://www.forestshadeecoresort.com",
+  },
+  {
+    name: "Magic Morpheus",
+    description:
+      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: magic,
+    icon: link,
+    source_code_link: "http://magicmorpheus.com",
+  },
+  {
+    name: "E-Career Web Application",
+    description:
+      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: ecareer,
+    icon: github,
+    source_code_link:
+      "https://github.com/KavinduTheekshana/eCareer-Web-Application",
+  },
+  {
+    name: "Daily Collection Web Application",
+    description:
+      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: dailycollection,
+    icon: github,
+    source_code_link: "https://github.com/KavinduTheekshana/DailyCollection",
+  },
+  {
+    name: "Ceylon Beatz Audio Marketplace UI/UX",
+    description:
+      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: ceylonbeats,
+    icon: github,
+    source_code_link: "https://github.com/KavinduTheekshana/ceylon-beatz",
+  },
+  {
+    name: "Garbage Collection Web Application",
+    description:
+      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: rubbishcollection,
+    icon: github,
+    source_code_link: "https://github.com/KavinduTheekshana/RubbishProject",
+  },
+  {
+    name: "Library Management System",
+    description:
+      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: library,
+    icon: github,
+    source_code_link:
+      "https://github.com/KavinduTheekshana/JavaLibraryApplication",
+  },
+  {
+    name: "Logo Designs",
+    description:
+      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: design,
+    icon: link,
+    source_code_link: "https://flic.kr/s/aHsm192Uib",
   },
 ];
 
